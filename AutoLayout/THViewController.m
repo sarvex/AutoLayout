@@ -24,8 +24,7 @@
 - (void) addConstraints {
     
     [self.view removeConstraints:self.view.constraints];
-    
-    
+        
     UILabel *firstName = self.firstName;
     UILabel *lastName = self.lastName;
     UIImageView *imageView = self.imageView;
